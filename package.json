@@ -3,15 +3,15 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "aws-amplify": "^1.1.11",
-    "aws-amplify-react": "^2.1.5",
+    "aws-amplify": "^1.1.32",
+    "aws-amplify-react": "^2.3.11",
     "date-fns": "^1.29.0",
     "element-react": "^1.4.25",
     "element-theme-default": "^1.4.13",
-    "react": "^16.6.3",
-    "react-dom": "^16.6.3",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "2.1.1",
+    "react-scripts": "3.0.1",
     "react-stripe-checkout": "^2.6.3"
   },
   "scripts": {

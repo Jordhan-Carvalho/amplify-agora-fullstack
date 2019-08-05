@@ -1,3 +1,9 @@
+## Serverless React with AWS Amplify - The Complete Guide
+
+![Alt text](images/screencapture-localhost-3000-2019-08-05-12_05_34.png "Front")
+![Alt text](./images/screencapture-localhost-3000-markets-ca63747c-4e54-4a54-a93e-dab4a5c0b7ca-2019-08-05-12_05_53.png "Market")
+![Alt text](images/screencapture-localhost-3000-profile-2019-08-05-12_06_32.png "Front")
+
 ## schema.graphql
 
 ```graphql
@@ -133,7 +139,8 @@ const emailHandler = (req, res) => {
       Source: config.adminEmail,
       ReturnPath: config.adminEmail,
       Destination: {
-      /* add customerEmail and ownerEmail to ToAddresses array after you've moved out of the sandbox for SES */ 
+        /* add customerEmail and ownerEmail to ToAddresses array after you've moved out of the sandbox for SES */
+
         ToAddresses: [config.adminEmail]
       },
       Message: {
